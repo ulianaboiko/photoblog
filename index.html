@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="photo-blog" />
     <title>PHOTO BLOG</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,97 +19,131 @@
     <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
-    <!-- шапка сайту -->
-    <header class="header">
-      <nav class="header-menu">
-        <ul class="menu-list">
-          <li class="menu-item"><a href="#" class="menu-link">LIFESTYLE</a></li>
-          <li class="menu-item">
-            <a href="#" class="menu-link">PHOTODIARY</a>
-          </li>
-          <li class="menu-item"><a href="#" class="menu-link">MUSIC</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">TRAVEL</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- основний контент -->
-    <main class="main">
-      <section class="gallery">
-        <div class="gallery-cards">
-          <article class="gallery-card">
-            <img src="./images/1.jpg" alt="LIFESTYLE" class="gallery-foto" />
-            <p class="gallery-category">LIFESTYLE</p>
-            <h2 class="gallery-title">More than just a music festival</h2>
-            <p class="gallery-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea.
-            </p>
-          </article>
-
-          <article class="gallery-card">
-            <img src="./images/2.jpg" alt="LIFESTYLE" class="gallery-foto" />
-            <p class="gallery-category">LIFESTYLE</p>
-            <h2 class="gallery-title">Life tastes better with coffee</h2>
-            <p class="gallery-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea.
-            </p>
-          </article>
-
-          <article class="gallery-card">
-            <img src="./images/3.jpg" alt="LIFESTYLE" class="gallery-foto" />
-            <p class="gallery-category">PHOTODAIRY</p>
-            <h2 class="gallery-title">American dream</h2>
-            <p class="gallery-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea.
-            </p>
-          </article>
-
-          <article class="gallery-card">
-            <img src="./images/4.jpg" alt="LIFESTYLE" class="gallery-foto" />
-            <p class="gallery-category">PHOTODAIRY</p>
-            <h2 class="gallery-title">A day exploring the Alps</h2>
-            <p class="gallery-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea.
-            </p>
-          </article>
-
-          <article class="gallery-card">
-            <img src="./images/5.jpg" alt="LIFESTYLE" class="gallery-foto" />
-            <p class="gallery-category">LIFESTYLE</p>
-            <h2 class="gallery-title">Top 10 song for running</h2>
-            <p class="gallery-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea.
-            </p>
-          </article>
-
-          <article class="gallery-card">
-            <img src="./images/6.jpg" alt="LIFESTYLE" class="gallery-foto" />
-            <p class="gallery-category">LIFESTYLE</p>
-            <h2 class="gallery-title">Cold winter days</h2>
-            <p class="gallery-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea.
-            </p>
-          </article>
+    <div class="container">
+      <!-- шапка сайту -->
+      <header class="header">
+        <div class="container">
+          <nav class="header-menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="#" class="menu-link">LIFESTYLE</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">PHOTODIARY</a>
+              </li>
+              <li class="menu-item"><a href="#" class="menu-link">MUSIC</a></li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">TRAVEL</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <button class="gallery-bottom">Load more</button>
-      </section>
-    </main>
+      </header>
+      <!-- основний контент -->
+      <main class="main">
+        <section class="gallery">
+          <div class="container">
+            <div class="gallery-cards">
+              <article class="gallery-card">
+                <img
+                  src="./images/1.jpg"
+                  alt="LIFESTYLE"
+                  class="gallery-foto"
+                />
+                <p class="gallery-category">LIFESTYLE</p>
+                <h2 class="gallery-title">More than just a music festival</h2>
+                <p class="gallery-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+
+              <article class="gallery-card">
+                <img
+                  src="./images/2.jpg"
+                  alt="LIFESTYLE"
+                  class="gallery-foto"
+                />
+                <p class="gallery-category">LIFESTYLE</p>
+                <h2 class="gallery-title">Life tastes better with coffee</h2>
+                <p class="gallery-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+
+              <article class="gallery-card">
+                <img
+                  src="./images/3.jpg"
+                  alt="LIFESTYLE"
+                  class="gallery-foto"
+                />
+                <p class="gallery-category">PHOTODAIRY</p>
+                <h2 class="gallery-title">American dream</h2>
+                <p class="gallery-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+
+              <article class="gallery-card">
+                <img
+                  src="./images/4.jpg"
+                  alt="LIFESTYLE"
+                  class="gallery-foto"
+                />
+                <p class="gallery-category">PHOTODAIRY</p>
+                <h2 class="gallery-title">A day exploring the Alps</h2>
+                <p class="gallery-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+
+              <article class="gallery-card">
+                <img
+                  src="./images/5.jpg"
+                  alt="LIFESTYLE"
+                  class="gallery-foto"
+                />
+                <p class="gallery-category">LIFESTYLE</p>
+                <h2 class="gallery-title">Top 10 song for running</h2>
+                <p class="gallery-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+
+              <article class="gallery-card">
+                <img
+                  src="./images/6.jpg"
+                  alt="LIFESTYLE"
+                  class="gallery-foto"
+                />
+                <p class="gallery-category">LIFESTYLE</p>
+                <h2 class="gallery-title">Cold winter days</h2>
+                <p class="gallery-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </div>
+            <button class="gallery-bottom">Load more</button>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
