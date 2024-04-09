@@ -12,6 +12,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+img {
+  display: block;
+  width: 100%;
+}
 .header {
   padding-top: 71px;
   padding-bottom: 92px;
@@ -34,6 +38,10 @@ body {
 .gallery {
   padding-bottom: 66px;
 }
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
 .gallery-cards {
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +51,7 @@ body {
   margin-bottom: 90px;
 }
 .gallery-card {
-  width: 420px;
+  flex-basis: calc((100% - 65px) / 2);
 }
 .gallery-foto {
   margin-bottom: 32px;
@@ -59,8 +67,10 @@ body {
   margin-bottom: 40px;
 }
 .gallery-bottom {
-  width: 165px;
-  height: 60px;
   font-family: "Playfair Display", serif;
   color: #626262;
+  background-color: #ffffff;
+  padding: 20px 50px;
+  border: 1px solid #626262;
+  align-self: center;
 }
