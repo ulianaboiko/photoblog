@@ -1,7 +1,7 @@
 .gallery-button {
-  font-family: "Playfair Display", serif;
+  font-family: $font-text-primary;
   color: #626262;
-  background-color: #ffffff;
+  background-color: $color-background;
   padding: 20px 50px;
   border: 1px solid #626262;
   align-self: center;
@@ -11,6 +11,6 @@
 }
 .gallery-button:hover {
   background-color: #626262;
-  color: #fff;
+  color: $color-background;
   border-radius: 4px;
 }
