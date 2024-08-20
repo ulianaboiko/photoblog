@@ -1,4 +1,4 @@
-.gallery-button {
+.gallery__button {
   font-family: $font-text-primary;
   color: #626262;
   background-color: $color-background;
@@ -9,7 +9,7 @@
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-.gallery-button:hover {
+.gallery__button:hover {
   background-color: #626262;
   color: $color-background;
   border-radius: 4px;

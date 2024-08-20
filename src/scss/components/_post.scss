@@ -1,4 +1,4 @@
-.gallery-card {
+.post {
   flex-basis: calc((100% - 65px) / 2);
   padding: 5px;
   transition-property: box-shadow, transform, border-radius;
@@ -6,22 +6,22 @@
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transform: scale(1) skew(0px, 0px);
 }
-.gallery-card:hover {
+.post:hover {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25),
     0 1px 1px 0 rgba(0, 0, 0, 0.25);
   transform: scale(2) skew(10px, 10px);
   border-radius: 5px;
 }
-.gallery-foto {
+.post__foto {
   margin-bottom: 32px;
 }
-.gallery-category {
+.post__category {
   font-family: $font-text-secondary;
   font-weight: 300;
   color: $color-text-category;
   margin-bottom: 32px;
 }
-.gallery-title {
+.post__title {
   font-size: 30px;
   margin-bottom: 40px;
 }

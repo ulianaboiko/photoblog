@@ -1,11 +1,11 @@
 .gallery {
   padding-bottom: 66px;
 }
-.gallery-container {
+.gallery__container {
   display: flex;
   flex-direction: column;
 }
-.gallery-cards {
+.grid {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
