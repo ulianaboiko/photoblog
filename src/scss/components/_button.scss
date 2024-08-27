@@ -1,10 +1,5 @@
 .gallery__button {
-  font-family: $font-text-primary;
-  color: #626262;
-  background-color: $color-background;
-  padding: 20px 50px;
-  border: 1px solid #626262;
-  align-self: center;
+  @include button(#fff, #626262);
   transition-property: color, background-color, border-radius;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);

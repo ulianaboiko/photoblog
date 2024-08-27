@@ -1,0 +1,8 @@
+@mixin button($bg-color, $text-color) {
+  font-family: $font-text-primary;
+  color: $text-color;
+  background-color: $bg-color;
+  padding: 20px 50px;
+  border: 1px solid $text-color;
+  align-self: center;
+}

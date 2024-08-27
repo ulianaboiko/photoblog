@@ -1,0 +1,13 @@
+%flex-center-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 65px;
+  row-gap: 130px;
+}
+%text-light {
+  font-family: $font-text-secondary;
+  font-weight: 300;
+  color: $color-text-category;
+}

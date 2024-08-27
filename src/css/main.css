@@ -1,3 +1,10 @@
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -86,9 +93,6 @@ body {
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   -moz-column-gap: 65px;
        column-gap: 65px;
   row-gap: 130px;

@@ -16,9 +16,7 @@
   margin-bottom: 32px;
 }
 .post__category {
-  font-family: $font-text-secondary;
-  font-weight: 300;
-  color: $color-text-category;
+  @extend %text-ligth;
   margin-bottom: 32px;
 }
 .post__title {

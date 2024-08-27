@@ -6,9 +6,7 @@
   flex-direction: column;
 }
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  @extend %flex-center-wrap;
   column-gap: 65px;
   row-gap: 130px;
   margin-bottom: 90px;
